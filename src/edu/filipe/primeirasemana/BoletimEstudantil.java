@@ -1,8 +1,10 @@
 package edu.filipe.primeirasemana;
+import java.util.Scanner;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
-        int mediaFinal = 7;
+        Scanner scanner = new Scanner(System.in);
+        int mediaFinal = scanner.nextInt();
 
         if(mediaFinal < 6) {
             System.out.println("REPROVADO");
